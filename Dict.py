@@ -16,3 +16,12 @@ monthConversions = {
 print(monthConversions["Nov"])
 print(monthConversions.get("Jun"))
 print(monthConversions.get("L"))
+
+for key in monthConversions:
+    print(key)
+
+for value in monthConversions.values():
+    print(value)
+
+for key,value in monthConversions.items():
+    print(key,value)

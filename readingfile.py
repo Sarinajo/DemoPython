@@ -1,4 +1,4 @@
 file=open("employee.txt","r")
-content = file.read()
-print(content)
+for msg in file.readlines():
+    print(msg)
 file.close()
